@@ -1,0 +1,39 @@
+@import url("https://fonts.googleapis.com/css2?family=Instrument+Sans:wght@400;500;600;700&family=Instrument+Serif:ital@0;1&display=swap");
+
+:root {
+
+  --bg: #C9B07F;
+  --fg: #2A1A11;
+  --fg-muted: #5C432B;
+
+  --surface: #B89B68;
+  --card-1: #AD8F5D;
+  --card-2: #6E2A24;
+  --card-3: #DEC795;
+
+  --border: #8E7245;
+  --radius: 4px;
+
+  --accent: #6E2A24;
+  --accent-soft: #8A3526;
+  --gold: #7E5A1C;
+
+  --tag-traditional: #6E2A24;
+  --tag-regional: #3C5236;
+  --tag-technique: #6A4A1E;
+  --tag-material: #8A5316;
+  --tag-contemporary: #5A3552;
+
+  --font-serif: "Instrument Serif", Georgia, serif;
+  --font-sans: "Instrument Sans", sans-serif;
+
+  --container: 1100px;
+  --gutter: 1.25rem;
+
+  --shadow: 0 8px 24px rgba(42, 26, 17, 0.28);
+  --transition: 0.25s ease;
+
+  --text: #F2E6C8;
+  --parch: #F2E6C8;
+  --brass: #D9B466;
+}

@@ -1,0 +1,28 @@
+
+body:has(#f-TC:checked) .card:not(.t-TC),
+body:has(#f-RT:checked) .card:not(.t-RT),
+body:has(#f-TE:checked) .card:not(.t-TE),
+body:has(#f-MA:checked) .card:not(.t-MA),
+body:has(#f-CA:checked) .card:not(.t-CA) {
+  display: none;
+}
+
+body:has(#f-TC:checked) .letter:not(:has(.t-TC)),
+body:has(#f-RT:checked) .letter:not(:has(.t-RT)),
+body:has(#f-TE:checked) .letter:not(:has(.t-TE)),
+body:has(#f-MA:checked) .letter:not(:has(.t-MA)),
+body:has(#f-CA:checked) .letter:not(:has(.t-CA)) {
+  display: none;
+}
+
+.count {
+  padding: 1.5rem 0 0;
+  text-align: center;
+  font-family: var(--font-sans);
+  font-size: 0.9rem;
+  color: var(--fg-muted);
+}
+
+.count::before {
+  content: "Showing " counter(shown) " of 79 entries";
+}
